@@ -1,0 +1,8 @@
+sentence-transformers
+qdrant-client
+duckdb
+neo4j
+pandas
+rich
+qdrant-client
+streamlit
