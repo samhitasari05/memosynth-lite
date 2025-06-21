@@ -1,0 +1,16 @@
+{
+  "id": 1,
+  "content": "Today I learned about vector databases and Qdrant.",
+  "project": "demo_project",
+  "agent": "doc_bot",
+  "summary": "Client asked about margin drop in Q2.",
+  "type": "insight",
+  "tags": ["finance", "Q2", "risk"],
+  "source": "Earnings_Report_Q2.pdf",
+  "author": "doc_bot",
+  "created_at": "2025-06-19",
+  "version": 1,
+  "confidence": 0.9,
+  "visibility": "project",
+  "sensitivity": "medium"
+}
