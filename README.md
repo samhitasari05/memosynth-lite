@@ -1,5 +1,4 @@
 # Memosynth Lite
-AI Agent Memory System using Qdrant, Neo4j, DuckDB, and Streamlit
 
 Memosynth Lite is a lightweight memory ingestion and storage pipeline designed to process JSON-based memory logs, perform summarization and deduplication, and store enriched outputs into three types of backends: a vector database (Qdrant), a relational timeline log (DuckDB), and a memory graph (Neo4j).
 
