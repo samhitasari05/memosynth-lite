@@ -7,6 +7,14 @@ Memosynth Lite is a lightweight memory ingestion and storage pipeline designed t
 
 ## 📊 Project Architecture
 
+Here’s a high-level visual overview of the memory processing pipeline:
+
+![Memosynth Architecture](Architecture.gif)
+<!-- If using the GIF version instead -->
+<!-- ![Memosynth Architecture Animation](./assets/memosynth_architecture.gif) -->
+
+<details>
+<summary>📄 Text-Based Flow (Click to Expand)</summary>
 ```text
            +---------------------+
            |  sample memory.json |
