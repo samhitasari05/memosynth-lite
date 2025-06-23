@@ -203,3 +203,53 @@ This project demonstrates how to create a mini memory system that logs, deduplic
 * **Entity Graphs** (Neo4j)
 
 It can be extended to handle multimodal inputs, complex timelines, and cross-memory reasoning systems.
+---
+
+**##🔮 Future Work & Improvements**
+While Memosynth Lite currently supports ingestion, summarization, and storage across Qdrant, DuckDB, and Neo4j, there are several opportunities to extend its capabilities:
+
+---
+
+**##🧠 Advanced Features**
+Multimodal Memory Handling: Extend support to image, audio, or PDF content using LLM/VLM integrations like GPT-4o or LLaVA.
+
+Long-Term Contextual Memory: Add retrieval-augmented generation (RAG) workflows using vector search + memory chaining.
+
+Fine-Grained Entity Resolution: Use spaCy or LLM-based named entity recognition (NER) to improve Neo4j graph quality.
+
+---
+
+**⚙️ Automation and Scaling**
+Event-Driven Ingestion: Support real-time ingestion using file watchers, webhooks, or Kafka topics.
+
+API-First Access: Expose a REST API for memory submissions and timeline queries.
+
+Docker Compose Setup: Bundle Qdrant, Neo4j, and the pipeline into a single deployable containerized setup.
+
+---
+
+**✅ Advantages**
+Modular Design: Uses Qdrant, DuckDB, and Neo4j for versatile storage.
+
+Lightweight: Easy to set up and run locally.
+
+Built-in Deduplication: Handles overlapping memories via diff() and resolve().
+
+Multi-View Access: Supports semantic search, timeline queries, and graph exploration.
+
+---
+
+**❌ Limitations**
+No UI: Terminal/Jupyter only, no visual dashboard.
+
+Static Input Only: No real-time or streaming memory ingestion.
+
+Basic Graph Use: Neo4j has limited relationships.
+
+No Multimodal Support: Text-only inputs for now.
+
+Not Fully Containerized: No single-click deploy yet.
+
+----
+
+
