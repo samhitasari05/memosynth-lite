@@ -4,7 +4,7 @@ Memosynth Lite is a lightweight memory ingestion and storage pipeline designed t
 
 ---
 
-This version uses a placeholder 'fake LLM' for diff() and resolve() functions to simulate reasoning.
+This version uses a 'fake LLM' for diff() and resolve() functions to simulate reasoning.
 
 ### Day 9 Notebook Demo Flow:
 - Inserts 3 memory entries
