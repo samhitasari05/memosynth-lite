@@ -185,7 +185,7 @@ Memories logged to the local DuckDB timeline database:
 ![DuckDB Timeline Output](output2.png)
 
 
-## 🔗 Dependencies
+## Dependencies
 
 * `qdrant-client`
 * `duckdb`
@@ -235,8 +235,6 @@ Multi-View Access: Supports semantic search, timeline queries, and graph explora
 
 ---
 ## Limitations
-No UI: Terminal/Jupyter only, no visual dashboard.
-
 Static Input Only: No real-time or streaming memory ingestion.
 
 Basic Graph Use: Neo4j has limited relationships.
@@ -244,6 +242,8 @@ Basic Graph Use: Neo4j has limited relationships.
 No Multimodal Support: Text-only inputs for now.
 
 Not Fully Containerized: No single-click deploy yet.
+
+Limited Scale Testing: Evaluated only on a small set of memory examples.
 
 ----
 
