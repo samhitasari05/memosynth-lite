@@ -166,6 +166,25 @@ jupyter notebook test_memory.ipynb
 
 ---
 
+## ✅ Sample Output (Ingestion Logs + Timeline View)
+
+Below are sample screenshots of the system running successfully:
+
+### 📟 Memory Ingestion Logging
+
+Shows memories being inserted into Qdrant, DuckDB, and Neo4j in real time via the terminal:
+
+![Memory Ingestion Log](output1.png)
+
+---
+
+### 📊 DuckDB Timeline View
+
+Memories logged to the local DuckDB timeline database:
+
+![DuckDB Timeline Output](output2.png)
+
+
 ## 🔗 Dependencies
 
 * `qdrant-client`
