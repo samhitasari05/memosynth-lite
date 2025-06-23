@@ -4,7 +4,7 @@ Memosynth Lite is a lightweight memory ingestion and storage pipeline designed t
 
 ---
 
-## 📊 Project Architecture
+## Project Architecture
 
 Here’s a high-level visual overview of the memory processing pipeline:
 
@@ -121,7 +121,7 @@ Here’s a high-level visual overview of the memory processing pipeline:
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 1. **Set up your environment:**
 
@@ -166,11 +166,11 @@ jupyter notebook test_memory.ipynb
 
 ---
 
-## ✅ Sample Output (Ingestion Logs + Timeline View)
+## Sample Output (Ingestion Logs + Timeline View)
 
 Below are sample screenshots of the system running successfully:
 
-### 📟 Memory Ingestion Logging
+### Memory Ingestion Logging
 
 Shows memories being inserted into Qdrant, DuckDB, and Neo4j in real time via the terminal:
 
@@ -178,7 +178,7 @@ Shows memories being inserted into Qdrant, DuckDB, and Neo4j in real time via th
 
 ---
 
-### 📊 DuckDB Timeline View
+### DuckDB Timeline View
 
 Memories logged to the local DuckDB timeline database:
 
@@ -194,7 +194,7 @@ Memories logged to the local DuckDB timeline database:
 
 ---
 
-## 🌟 Outcome
+## Outcome
 
 This project demonstrates how to create a mini memory system that logs, deduplicates, and stores information across three complementary storage layers:
 
@@ -204,13 +204,11 @@ This project demonstrates how to create a mini memory system that logs, deduplic
 
 It can be extended to handle multimodal inputs, complex timelines, and cross-memory reasoning systems.
 ---
-
-**🔮 Future Work & Improvements**
+## Future Work & Improvements**
 While Memosynth Lite currently supports ingestion, summarization, and storage across Qdrant, DuckDB, and Neo4j, there are several opportunities to extend its capabilities:
 
 ---
-
-**🧠 Advanced Features**
+## Advanced Features
 Multimodal Memory Handling: Extend support to image, audio, or PDF content using LLM/VLM integrations like GPT-4o or LLaVA.
 
 Long-Term Contextual Memory: Add retrieval-augmented generation (RAG) workflows using vector search + memory chaining.
@@ -218,8 +216,7 @@ Long-Term Contextual Memory: Add retrieval-augmented generation (RAG) workflows 
 Fine-Grained Entity Resolution: Use spaCy or LLM-based named entity recognition (NER) to improve Neo4j graph quality.
 
 ---
-
-**⚙️ Automation and Scaling**
+## Automation and Scaling
 Event-Driven Ingestion: Support real-time ingestion using file watchers, webhooks, or Kafka topics.
 
 API-First Access: Expose a REST API for memory submissions and timeline queries.
@@ -227,8 +224,7 @@ API-First Access: Expose a REST API for memory submissions and timeline queries.
 Docker Compose Setup: Bundle Qdrant, Neo4j, and the pipeline into a single deployable containerized setup.
 
 ---
-
-**✅ Advantages**
+## Advantages
 Modular Design: Uses Qdrant, DuckDB, and Neo4j for versatile storage.
 
 Lightweight: Easy to set up and run locally.
@@ -238,8 +234,7 @@ Built-in Deduplication: Handles overlapping memories via diff() and resolve().
 Multi-View Access: Supports semantic search, timeline queries, and graph exploration.
 
 ---
-
-**❌ Limitations**
+## Limitations
 No UI: Terminal/Jupyter only, no visual dashboard.
 
 Static Input Only: No real-time or streaming memory ingestion.
