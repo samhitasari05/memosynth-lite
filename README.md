@@ -205,12 +205,12 @@ This project demonstrates how to create a mini memory system that logs, deduplic
 It can be extended to handle multimodal inputs, complex timelines, and cross-memory reasoning systems.
 ---
 
-**##🔮 Future Work & Improvements**
+**🔮 Future Work & Improvements**
 While Memosynth Lite currently supports ingestion, summarization, and storage across Qdrant, DuckDB, and Neo4j, there are several opportunities to extend its capabilities:
 
 ---
 
-**##🧠 Advanced Features**
+**🧠 Advanced Features**
 Multimodal Memory Handling: Extend support to image, audio, or PDF content using LLM/VLM integrations like GPT-4o or LLaVA.
 
 Long-Term Contextual Memory: Add retrieval-augmented generation (RAG) workflows using vector search + memory chaining.
