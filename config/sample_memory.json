@@ -1,16 +1,74 @@
-{
-  "id": 1,
-  "content": "Today I learned about vector databases and Qdrant.",
-  "project": "demo_project",
-  "agent": "doc_bot",
-  "summary": "Client asked about margin drop in Q2.",
-  "type": "insight",
-  "tags": ["finance", "Q2", "risk"],
-  "source": "Earnings_Report_Q2.pdf",
-  "author": "doc_bot",
-  "created_at": "2025-06-19",
-  "version": 1,
-  "confidence": 0.9,
-  "visibility": "project",
-  "sensitivity": "medium"
-}
+[
+  {
+    "id": 1,
+    "content": "Today I learned about vector databases and Qdrant.",
+    "project": "demo_project",
+    "agent": "doc_bot",
+    "summary": "Client asked about margin drop in Q2.",
+    "type": "insight",
+    "tags": ["finance", "Q2", "risk"],
+    "source": "Earnings_Report_Q2.pdf",
+    "author": "doc_bot",
+    "created_at": "2025-06-19",
+    "version": 1,
+    "confidence": 0.9,
+    "visibility": "project",
+    "sensitivity": "medium",
+    "timestamp": "2025-06-19T12:00:00Z"
+  },
+  {
+    "id": "8a86f314-bf15-4327-a08b-7be7d2a6ff11",
+    "summary": "User asked about fixing the Neo4j connection error.",
+    "source": "testing",
+    "timestamp": "2025-06-21T17:30:00Z"
+  },
+  {
+    "id": 2,
+    "summary": "Meeting concluded with a decision to prioritize UI improvements for the MVP release.",
+    "source": "team_meeting_notes",
+    "timestamp": "2025-06-20T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "summary": "Memory ingestion speed improved by 35% after batch optimization.",
+    "source": "performance_test_results",
+    "timestamp": "2025-06-20T16:00:00Z"
+  },
+  {
+    "id": 4,
+    "summary": "User requested help using GPT-4o for long-context summarization.",
+    "source": "user_query_log",
+    "timestamp": "2025-06-21T09:15:00Z"
+  },
+  {
+    "id": 5,
+    "summary": "Error logs indicate 401 unauthorized issue during Qdrant POST request.",
+    "source": "backend_logs",
+    "timestamp": "2025-06-21T13:45:00Z"
+  },
+  {
+    "id": 6,
+    "summary": "LLM-generated summary helped compress 3 documents into a single insight.",
+    "source": "llm_agent_response",
+    "tags": ["llm", "summarization"],
+    "timestamp": "2025-06-20T15:00:00Z"
+  },
+  {
+    "id": 7,
+    "summary": "Reminder: Follow up with finance team regarding budget approvals.",
+    "source": "email_reminders",
+    "timestamp": "2025-06-19T11:00:00Z"
+  },
+  {
+    "id": 8,
+    "summary": "Plan to integrate Neo4j memory graph with the chat UI next week.",
+    "source": "weekly_goals_doc",
+    "timestamp": "2025-06-18T08:00:00Z"
+  },
+  {
+    "id": 9,
+    "summary": "Archived memory batch from 2024 processed for backward compatibility test.",
+    "source": "legacy_data_import",
+    "timestamp": "2025-06-17T10:30:00Z"
+  }
+]
